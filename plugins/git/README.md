@@ -39,6 +39,8 @@ plugins=(... git)
 | `gbl`                  | `git blame -w`                                                                                                                  |
 | `gb`                   | `git branch`                                                                                                                    |
 | `gba`                  | `git branch --all`                                                                                                              |
+| `gbav`                 | `git branch --all -v`                                                                                                           |
+| `gbavv`                | `git branch --all -vv`                                                                                                          |
 | `gbd`                  | `git branch --delete`                                                                                                           |
 | `gbD`                  | `git branch --delete --force`                                                                                                   |
 | `gbgd`                 | `LANG=C git branch --no-color -vv \| grep ": gone\]" \| cut -c 3- \| awk '"'"'{print $1}'"'"' \| xargs git branch -d`           |
