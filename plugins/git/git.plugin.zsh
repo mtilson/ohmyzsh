@@ -125,6 +125,8 @@ alias gbss='git bisect start'
 alias gbl='git blame -w'
 alias gb='git branch'
 alias gba='git branch --all'
+alias gbav='git branch --all -v'
+alias gbavv='git branch --all -vv'
 alias gbd='git branch --delete'
 alias gbD='git branch --delete --force'
 
